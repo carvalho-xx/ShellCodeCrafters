@@ -1,7 +1,10 @@
 using System.Net;
 using System.Net.Sockets;
 
-Console.Write("$ ");
+string comando;
 
+Console.Write("$ ");
 // Wait for user input
-Console.ReadLine();
+comando = Console.ReadLine();
+
+Console.WriteLine($"{comando}: command not found");
